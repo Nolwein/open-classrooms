@@ -17,3 +17,14 @@ if (motUtilisateur === listeMots[2]) {
 }
 
 console.log("Votre score est de " + score + " sur 3 ")
+
+
+// ---- refactoriser ----//
+
+for (let i = 0; i < listeMots.length; i++) {
+  let motUtilisateur = prompt("Entrez le mot : " + listeMots[i])
+  if (motUtilisateur === listeMots[i]) {
+  }
+}
+
+console.log("Votre score est de " + score + listeMots.length)
