@@ -1,13 +1,13 @@
 lancerJeu()
 
-let inputEcriture = document.getElementById("inputEcriture");
-console.log(inputEcriture)
+// let inputEcriture = document.getElementById("inputEcriture");
+// console.log(inputEcriture)
 
-let btnValiderMot = document.getElementByID("btnValiderMot");
-console.log(btnValiderMot)
+// let btnValiderMot = document.getElementByID("btnValiderMot");
+// console.log(btnValiderMot)
 
-let zoneProposition = document.querySelector(".zoneProposition");
+// let zoneProposition = document.querySelector(".zoneProposition");
 
-let zoneScore = document.querySelector(".zoneScore span");
+// let zoneScore = document.querySelector(".zoneScore span");
 
-let optionSource = document.querySelector(".optionSource input");
+// let optionSource = document.querySelector(".optionSource input");
