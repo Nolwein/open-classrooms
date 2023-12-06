@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <div id="react-goes-here">
+    <div id="root">
       Hola 🍗
     </div>
     <script
@@ -19,10 +19,10 @@
       </script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel" >
-      function MyComponent() {
-					return <div> Mon élement apparait bien </div>
+      function Header() {
+					return <h1> La maison jungle🌴 </h1>
 			}
-			ReactDOM.render(<MyComponent />,document.getElementById("react-goes-here"))
+			ReactDOM.render(<Header />,document.getElementById("root"))
     </script>
 
 
